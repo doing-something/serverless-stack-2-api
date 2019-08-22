@@ -15,7 +15,7 @@ export async function main(event, context) {
             source,
             amount,
             description,
-            currency: 'krw'
+            currency: 'usd'
         });
         return success({ status: true });
     } catch (e) {
